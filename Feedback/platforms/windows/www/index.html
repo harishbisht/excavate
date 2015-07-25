@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+		
+		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="_assets/css/jqm-demos.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	
+  
+
+		<script src="js/jquery.js"></script>
+		<script src="_assets/js/index.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+		<title>Excavate app</title>
+	
+
+		
+    </head>
+    <body>
+	
+	
+ 
+	
+	
+        <div class="app" data-role="page">
+            <img src="img/logo.png" alt="Excavate Research">
+            <div id="deviceready" class="blink" data-role="header">
+                <p class="event listening">Welcome</p>
+                <p class="event received">Please Fill up The Details Below</p>
+            </div><br />
+            <div data-role="content">
+			
+	  <form id="form1" action="http://www.harish321.net46.net" method="POST"  target="_self" >
+       
+	   <table>
+            	<tr>
+				
+            	<td style="text-align:left"><label class="labels" id="label1" for="text1" ><strong>Category: </strong>  </label></td>
+            	<td style="text-align:left"><input class="boxes" type="text" name="category" autocomplete="on-text" id="text1" required="required" placeholder="Max 50 "></td><br /><br />
+            	</tr><tr> </tr><tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr>
+            	<tr>
+            	<td style="text-align:left"><label class="labels" for="text2"><strong> Sub-category: </strong></label></td>
+            	<td style="text-align:left"><input type="text" name="sub_category" class="boxes" id="text2"  required="required"  placeholder="Max 50 "></td>
+            	</tr></tr><tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr>
+            	<tr>
+				<td style="text-align:left"><label for="slider-a"><strong>Rate:</strong></label></td>
+				<td>
+				<form>
+					<label for="flip-checkbox-3"></label>
+					<input type="checkbox" data-role="flipswitch" name="flip-checkbox-3" id="flip-checkbox-3" data-on-text="Like" data-off-text="Unlike" data-wrapper-class="custom-size-flipswitch">
+				</form>
+				</td></tr>
+            	<tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr>
+
+				<tr>
+            	<td style="text-align:left"><label class="labels"  for="text3"><strong> Feedback: </strong></label></td>
+            	<td style="text-align:left"><textarea rows="6" cols="25" name="feedback" id="text3"  required="required" placeholder="Max 500 "></textarea></td>
+            	</tr>
+            	</tr><tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr></tr><tr> </tr><tr> </tr><tr> </tr>
+            						
+				<tr>
+            	<td><button bgcolor="blue"><strong>Submit</strong</button></td></tr>
+            </table>
+				
+		
+            </form> </div>
+        </div>
+	
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
